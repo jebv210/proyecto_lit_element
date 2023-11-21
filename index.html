@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Catalogo</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="">
+  <script src="node_modules/@webcomponents/webcomponentsjs/webcomponents-loader.js"></script>
+  <script type="module" src="./src/my-elements.js"></script>
+  <script type="module" src="./src/my-elementdos.js"></script>
+  <script type="module" src="./src/my-elementtres.js"></script>
+  <script type="module" src="./src/my-elementcuatro.js"></script>
+  <script type="module" src="./src/my-elementquinto.js"></script>
+  <script type="module" src="./src/my-elementseis.js"></script>
+  <style>
+    .container {
+      display: flex;
+    }
+    .column {
+      flex: 0.4;
+    }
+    h1{
+      font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    }
+    .content {
+    text-align: center;
+    width: 1100px;
+    margin: 0 auto;
+    padding: 20px 0;
+    }
+    .direcc {
+    text-decoration: none;
+    color: white;
+    }
+    
+
+    
+    footer {
+    width: 100%;
+    background: #4e4747;
+    color: white;
+    padding: 40px 0;
+    text-align: center;
+    }
+  </style>
+</head>
+<body>
+    <center><h1>Catalogo</h1></center>
+  <div class="container">
+    <div class="column">
+      <my-elementcuatro></my-elementcuatro>
+      <my-elementdos></my-elementdos>
+      <my-elementquinto></my-elementquinto>
+      <my-elementquinto></my-elementquinto>
+      <my-elementtres></my-elementtres>
+      <my-elementseis></my-elementseis>
+    </div>
+    <div class="column">
+    <my-elementtres></my-elementtres>
+    <my-elementseis></my-elementseis>
+      <my-element></my-element>
+      <my-elementdos></my-elementdos>
+      <my-element></my-element>
+      <my-elementcuatro></my-elementcuatro>
+    </div>
+    <div class="column">
+      <my-element></my-element>
+      <my-elementcuatro></my-elementcuatro>
+      <my-elementseis></my-elementseis>
+      <my-elementtres></my-elementtres>
+      <my-element></my-element>
+      <my-elementdos></my-elementdos>
+    </div>
+    <div class="column">
+        <my-elementdos></my-elementdos>
+        <my-element></my-element>
+        <my-elementcuatro></my-elementcuatro>
+        <my-elementcuatro></my-elementcuatro>
+        <my-elementseis></my-elementseis>
+        <my-elementtres></my-elementtres>
+      </div>
+  </div>
+
+  
+
+  <footer>
+      &copy; 2023 Adopción Mascotas
+  </footer>
+</body>
+</html>
